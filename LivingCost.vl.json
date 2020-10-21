@@ -3,21 +3,23 @@
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/EuropeLivingIndex(2013-2020).csv"
   },
+  "width":700,
+  "height":800,
   "title": {
     "text": "Cost of Living Index in different Countries Of Europe from (2013-2020)",
     "fontSize": 20
   },
   "mark": "rect",
   "encoding": {
-    "x": {
+    "y": {
       "field": "Country",
       "type": "nominal",
       "axis": {"title": null, "labelFontSize": 15, "titleFontSize": 15}
     },
-    "y": {
+    "x": {
       "field": "Year",
       "type": "ordinal",
-      "axis": {"title": "Years", "labelFontSize": 15, "titleFontSize": 15}
+      "axis": {"title": "Years", "labelFontSize": 15, "titleFontSize": 15,"labelAngle":0}
     },
     "color": {
       "field": "Costoflivingindex",
@@ -30,7 +32,7 @@
       {
         "field": "Costoflivingindex",
         "type": "quantitative",
-        "title": "Costoflivingindex"
+        "title": "Cost of living index"
       }
     ]
   },
