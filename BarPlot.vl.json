@@ -5,8 +5,8 @@
     "text": "Percentage Of Crime In Different Countries Of Europe",
     "fontSize": 20
   },
-  "width": 700,
-  "height": 800,
+  "width": 770,
+  "height": 460,
   "background": "white",
   "data": {
     "values": [
