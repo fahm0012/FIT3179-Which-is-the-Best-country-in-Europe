@@ -4,7 +4,7 @@
     "text": "Rate Of Unemployment In Different Countires Of Europe In 2016",
     "fontSize": 20
   },
-  "width": 770,
+  "width": 750,
   "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/ne_110m.json",
