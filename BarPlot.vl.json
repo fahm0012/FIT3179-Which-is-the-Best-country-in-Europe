@@ -124,7 +124,7 @@
     "y": {
       "field": "country",
       "type": "nominal",
-      "axis": {"title": null, "labelFontSize": 30}
+      "axis": {"title": null, "labelFontSize": 15}
     },
     "x": {
       "field": "PercentageofCrime",
