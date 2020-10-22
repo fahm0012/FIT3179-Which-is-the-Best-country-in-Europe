@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 700,
+  "width": 630,
   "height": 500,
   "title": {"text": "Pollution Reported per European Country", "fontSize": 20},
   "data": {
@@ -508,7 +508,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['country'] == 'Slovenia' || datum['country'] == 'Sweden' || datum['country'] == 'United Kingdom' || datum['country'] == 'Germany' || datum['country'] == 'Netherlands' || datum['country'] == 'Malta' ||  datum['country'] == 'Turkey'",
+            "test": "datum['country'] == 'Slovenia' || datum['country'] == 'Sweden' || datum['country'] == 'Romania' || datum['country'] == 'United Kingdom' || datum['country'] == 'Netherlands' || datum['country'] == 'Malta' ||  datum['country'] == 'Iceland'",
             "value": 1
           },
           "value": 0
