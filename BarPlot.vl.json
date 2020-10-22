@@ -139,7 +139,7 @@
       "encoding": {
         "color": {
           "condition": {
-            "test": {"field": "PercentageofCrime", "gt": 8},
+            "test": {"field": "PercentageofCrime", "gt": 5},
             "value": "red"
           },
           "value": "lightgrey"
@@ -149,7 +149,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 20,
+        "fontSize": 17,
         "align": "right",
         "xOffset": -4,
         "aria": false
