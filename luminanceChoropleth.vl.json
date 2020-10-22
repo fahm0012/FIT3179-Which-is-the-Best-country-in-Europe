@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Median Income in Different Countires of Europe in 2016",
-  "width": 800,
+  "width": 770,
   "height": 400,
   "background": "#fcfbfb28",
   "data": {
