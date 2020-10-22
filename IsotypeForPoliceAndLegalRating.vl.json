@@ -1,14 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "config": {"view": {"stroke": ""}},
-  "width": 600,
-  "height": 170,
+  "width": 750,
+  "height": 90,
   "title": {
     "text": "Police And Legal Rating Out of 10 For Top 10 Countries Of Europe",
-    "fontSize": 20,
-    "align": "left",
-    "orient": "top",
-    "zindex": 100
+    "fontSize": 20
   },
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/PoliceAndLegalRating.csv"
@@ -24,8 +21,6 @@
           "United Kingdom",
           "Turkey",
           "Germany",
-          "Greece",
-          "Austria",
           "Portugal",
           "Netherlands"
         ]
@@ -49,10 +44,10 @@
     "shape": {"field": "emoji"},
     "row": {
       "field": "Country ",
-      "header": {"title": "", "labelFontSize": 18, "labelFontWeight": "bold"}
+      "header": {"title": "", "labelFontSize": 17, "labelFontWeight": "bold"}
     },
     "text": {"field": "emoji", "type": "nominal"},
-    "size": {"value": 50},
+    "size": {"value": 39},
     "tooltip": [
       {"field": "Country ", "type": "nominal", "title": "Country"},
       {"field": "Rank", "type": "nominal", "title": "Category"},
