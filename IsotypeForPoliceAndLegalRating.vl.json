@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "config": {"view": {"stroke": ""}},
+  "width": 600,
+  "height": 170,
+  "title": {
+    "text": "Police And Legal Rating Out of 10 For Top 10 Countries Of Europe",
+    "fontSize": 20,
+    "align": "left",
+    "orient": "top",
+    "zindex": 100
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/PoliceAndLegalRating.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Country ",
+        "oneOf": [
+          "France",
+          "Spain",
+          "Italy",
+          "United Kingdom",
+          "Turkey",
+          "Germany",
+          "Greece",
+          "Austria",
+          "Portugal",
+          "Netherlands"
+        ]
+      }
+    },
+    {
+      "calculate": "{'Legal': '👨🏻‍⚖', 'Police': '🚓'}[datum.Rank]",
+      "as": "emoji"
+    },
+    {"window": [{"op": "rank", "as": "rank"}], "groupby": ["Country ", "Rank"]}
+  ],
+  "mark": {"type": "text", "baseline": "middle"},
+  "encoding": {
+    "x": {"field": "rank", "type": "ordinal", "axis": null},
+    "y": {
+      "field": "Rank",
+      "type": "nominal",
+      "axis": {"labelFontSize": 15, "title": null},
+      "sort": null
+    },
+    "shape": {"field": "emoji"},
+    "row": {
+      "field": "Country ",
+      "header": {"title": "", "labelFontSize": 18, "labelFontWeight": "bold"}
+    },
+    "text": {"field": "emoji", "type": "nominal"},
+    "size": {"value": 50},
+    "tooltip": [
+      {"field": "Country ", "type": "nominal", "title": "Country"},
+      {"field": "Rank", "type": "nominal", "title": "Category"},
+      {"field": "rank", "type": "quantitative", "title": "Rating Star"},
+      {"field": "Rating", "type": "quantitative", "title": "Total Rating"}
+    ]
+  }
+}
