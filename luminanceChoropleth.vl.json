@@ -25,7 +25,7 @@
     "type": "equalEarth",
     "scale": 700,
     "center": [20, 50],
-    "clipExtent": [[0, 0], [800, 700]]
+    "clipExtent": [[0, 0], [730, 400]]
   },
   "layer": [
     {"mark": {"type": "geoshape", "stroke": "#f1eded", "strokeWidth": 1}}
