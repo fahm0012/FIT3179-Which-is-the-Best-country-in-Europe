@@ -27,7 +27,7 @@
     "type": "equalEarth",
     "scale": 740,
     "center": [20, 50],
-    "clipExtent": [[0, 0], [800, 700]]
+    "clipExtent": [[0, 0], [700, 400]]
   },
   "layer": [
     {
