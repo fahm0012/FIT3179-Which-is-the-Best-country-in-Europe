@@ -214,7 +214,7 @@
       {
         "field": "sum_NominalGDPInBillionDollars",
         "type": "nominal",
-        "title": "Nominal GDP"
+        "title": "Nominal GDP In Billion Dollars"
       }
     ]
   },
