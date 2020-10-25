@@ -5,6 +5,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/EuropeGDPInBillionDollarsFrom2010till2019.csv"
   },
+  "background": "#f5f5dc",
   "params": [
     {
       "name": "Country_selection",
