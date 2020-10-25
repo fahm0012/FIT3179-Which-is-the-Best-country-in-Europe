@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 580,
   "height": 400,
-  "title": {"text": "Pollution Reported per European Country", "fontSize": 20},
+  "background": "#f5f5dc",
   "data": {
     "values": [
       {
