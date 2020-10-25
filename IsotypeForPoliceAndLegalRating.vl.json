@@ -3,10 +3,7 @@
   "config": {"view": {"stroke": ""}},
   "width": 750,
   "height": 90,
-  "title": {
-    "text": "Police And Legal Rating Out of 8 For Top 10 Countries Of Europe",
-    "fontSize": 20
-  },
+  "background": "#f5f5dc",
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/PoliceAndLegalRating.csv"
   },
