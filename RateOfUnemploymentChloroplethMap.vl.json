@@ -1,9 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": {
-    "text": "Rate Of Unemployment In Different Countires Of Europe In 2016",
-    "fontSize": 20
-  },
+  "background": "#f5f5dc",
   "width": 700,
   "height": 400,
   "data": {
