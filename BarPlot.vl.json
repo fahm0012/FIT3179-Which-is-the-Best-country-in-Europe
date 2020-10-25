@@ -1,13 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
-  "title": {
-    "text": "Percentage Of Crime In Different Countries Of Europe",
-    "fontSize": 20
-  },
   "width": 770,
   "height": 530,
-  "background": "white",
+  "background": "#f5f5dc",
   "data": {
     "values": [
       {"country": "🇦🇹", "PercentageofCrime": 12.4},
