@@ -141,7 +141,7 @@
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "axis": {"title": "Years", "labelFontSize": 15, "titleFontSize": 15,"labelAngle":0}
+      "axis": {"title": "null", "labelFontSize": 15, "titleFontSize": 15,"labelAngle":0}
     },
     "color": {
       "field": "Costoflivingindex",
