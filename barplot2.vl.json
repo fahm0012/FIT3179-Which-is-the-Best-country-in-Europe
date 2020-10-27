@@ -1,0 +1,173 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
+  "width": 770,
+  "height": 530,
+  "background": "#f5f5dc",
+  "data": {
+    "values": [
+ {
+   "country": "🇦🇹 Austria",
+   "PercentageofCrime": 12.4
+ },
+ {
+   "country": "🇧🇪 Belgium",
+   "PercentageofCrime": 13.4
+ },
+ {
+   "country": "🇧🇬 Bulgaria",
+   "PercentageofCrime": 25
+ },
+ {
+   "country": "🇨🇭 Switzerland",
+   "PercentageofCrime": 10.9
+ },
+ {
+  "country": "🇨🇾 Cyprus",
+   "PercentageofCrime": 9.8
+ },
+ {
+   "country": "🇨🇿 Czechia",
+   "PercentageofCrime": 11.7
+ },
+ {
+   "country": "🇩🇪 Germany",
+   "PercentageofCrime": 14.1
+ },
+ {
+   "country": "🇩🇰 Denmark",
+   "PercentageofCrime": 8.4
+ },
+ {
+   "country": "🇪🇪 Estonia",
+   "PercentageofCrime": 9.2
+ },
+ {
+   "country": "🇬🇷 Greece",
+   "PercentageofCrime": 11.8
+ },
+ {
+   "country": "🇪🇸 Spain",
+   "PercentageofCrime": 10.3
+ },
+ {
+   "country": "🇫🇮 Finland",
+   "PercentageofCrime": 6.5
+ },
+ {
+   "country": "🇭🇷 Croatia",
+   "PercentageofCrime": 3
+ },
+ {
+   "country": "🇭🇺 Hungary",
+   "PercentageofCrime": 9.7
+ },
+ {
+   "country": "🇮🇪 Ireland",
+   "PercentageofCrime": 9.9
+ },
+ {
+   "country": "🇮🇸 Iceland",
+   "PercentageofCrime": 2.2
+ },
+ {
+   "country": "🇮🇹 Italy",
+   "PercentageofCrime": 14.7
+ },
+ {
+   "country": "🇱🇹 Lithuania",
+   "PercentageofCrime": 3.4
+ },
+ {
+   "country": "🇱🇺 Luxembourg",
+   "PercentageofCrime": 12.2
+ },
+ {
+   "country": "🇱🇻 Latvia",
+   "PercentageofCrime": 10
+ },
+ {
+   "country": "🇲🇹 Malta",
+   "PercentageofCrime": 10.4
+ },
+ {
+   "country": "🇳🇱 Netherlands",
+   "PercentageofCrime": 16.9
+ },
+ {
+   "country": "🇵🇱 Poland",
+   "PercentageofCrime": 5.6
+ },
+ {
+   "country": "🇵🇹 Portugal",
+   "PercentageofCrime": 7.8
+ },
+ {
+   "country": "🇷🇴 Romania",
+   "PercentageofCrime": 14.1
+ },
+ {
+   "country": "🇸🇪 Sweden",
+   "PercentageofCrime": 12.7
+ },
+ {
+   "country": "🇸🇮 Slovenia",
+   "PercentageofCrime": 8.5
+ },
+ {
+   "country": "🇸🇰 Slovakia",
+   "PercentageofCrime": 6.9
+ },
+ {
+   "country": "🇹🇷 Turkey",
+   "PercentageofCrime": 10.7
+ },
+ {
+   "country": "🇬🇧 United Kingdom",
+   "PercentageofCrime": 16.8
+ }
+]
+  },
+
+  "encoding": {
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "axis": {"title": null, "labelFontSize": 15}
+    },
+    "x": {
+      "field": "PercentageofCrime",
+      "type": "quantitative",
+      "title": null,
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": {"field": "PercentageofCrime", "gt": 5},
+            "value": "red"
+          },
+          "value": "lightgrey"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 16,
+        "align": "right",
+        "xOffset": -4,
+        "aria": false
+      },
+      "encoding": {
+        "text": {"field": "PercentageofCrime", "type": "quantitative"},
+        "color": {"value": "Black"}
+      }
+    }
+  ],
+  "config": {"tick": {}}
+}
