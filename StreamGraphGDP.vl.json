@@ -74,7 +74,7 @@
         "domain": false,
         "format": "%Y",
         "tickSize": 0,
-        "titleFontSize": 15,
+        "title": null,
         "labelFontSize": 15
       }
     },
