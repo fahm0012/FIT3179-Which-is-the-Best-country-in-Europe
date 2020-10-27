@@ -6,187 +6,7 @@
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/EuropeGDPInBillionDollarsFrom2010till2019.csv"
   },
   "background": "#f5f5dc",
-  "params": [
-    {
-      "name": "Country_selection",
-      "bind": {
-        "input": "select",
-        "options": [
-          null,
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Kazakhstan",
-          "Hungary",
-          "Ukarine",
-          "Slovakia",
-          "Luxembourg",
-          "Bulgaria",
-          "Croatia",
-          "Belarus",
-          "Slovenia"
-        ],
-        "labels": [
-          "Show All",
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Kazakhstan",
-          "Hungary",
-          "Ukarine",
-          "Slovakia",
-          "Luxembourg",
-          "Bulgaria",
-          "Croatia",
-          "Belarus",
-          "Slovenia"
-        ],
-        "name": "Country Selection: "
-      }
-    }
-  ],
-  "transform": [
-    {
-      "filter": "Country_selection == null || datum.country == Country_selection"
-    },
-    {
-      "filter": {
-        "field": "country",
-        "oneOf": [
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Germany",
-          "United Kingdom",
-          "France",
-          "Italy",
-          "Russia",
-          "Spain",
-          "Netherlands",
-          "Turkey",
-          "Switzerland",
-          "Poland",
-          "Sweden",
-          "Belgium",
-          "Austria",
-          "Norway",
-          "Ireland",
-          "Denmark",
-          "Finland",
-          "Czech Republic",
-          "Romania",
-          "Portugal",
-          "Greece",
-          "Kazakhstan",
-          "Hungary",
-          "Ukarine",
-          "Slovakia",
-          "Luxembourg",
-          "Bulgaria",
-          "Croatia",
-          "Belarus",
-          "Slovenia"
-        ]
-      }
-    }
-  ],
-  "mark": "area",
+
   "encoding": {
     "x": {
       "timeUnit": "year",
@@ -204,12 +24,28 @@
       "field": "NominalGDPInBillionDollars",
       "stack": "center",
       "axis": null
-    },
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+ "Country_highlight": {
+ "type": "multi",
+ "fields": ["country"],
+ "bind": "legend"
+ }
+ },
+    "mark": "area",
+    "encoding": {
     "color": {
       "field": "country",
       "scale": {"scheme": "category20b"},
       "legend": {"labelFontSize": 15, "titleFontSize": 15, "title": "Country"}
     },
+    "opacity": {
+ "condition": {"selection": "Country_highlight", "value": 0.8},
+ "value": 0.2
+ },
     "tooltip": [
       {"field": "country", "type": "nominal", "title": "Country"},
       {
@@ -218,6 +54,8 @@
         "title": "Nominal GDP In Billion Dollars"
       }
     ]
-  },
+    }
+    }
+     ],
   "config": {}
 }
