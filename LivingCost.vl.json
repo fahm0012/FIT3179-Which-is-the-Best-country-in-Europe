@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/EuropeLivingIndex(2013-2020).csv"
   },
-  "title": null,
+  "title": {"text":null},
   "background": "#f5f5dc",
   "params": [
  {
