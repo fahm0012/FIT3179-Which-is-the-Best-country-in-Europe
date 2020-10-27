@@ -6,7 +6,66 @@
     "url": "https://raw.githubusercontent.com/fahm0012/FIT3179-Which-is-the-Best-country-in-Europe/main/EuropeGDPInBillionDollarsFrom2010till2019.csv"
   },
   "background": "#f5f5dc",
-
+  "transform": [
+    {
+      "filter": {
+        "field": "country",
+        "oneOf": [
+          "Germany",
+          "United Kingdom",
+          "France",
+          "Italy",
+          "Russia",
+          "Spain",
+          "Netherlands",
+          "Turkey",
+          "Switzerland",
+          "Poland",
+          "Sweden",
+          "Belgium",
+          "Austria",
+          "Norway",
+          "Ireland",
+          "Denmark",
+          "Finland",
+          "Czech Republic",
+          "Romania",
+          "Portugal",
+          "Greece",
+          "Germany",
+          "United Kingdom",
+          "France",
+          "Italy",
+          "Russia",
+          "Spain",
+          "Netherlands",
+          "Turkey",
+          "Switzerland",
+          "Poland",
+          "Sweden",
+          "Belgium",
+          "Austria",
+          "Norway",
+          "Ireland",
+          "Denmark",
+          "Finland",
+          "Czech Republic",
+          "Romania",
+          "Portugal",
+          "Greece",
+          "Kazakhstan",
+          "Hungary",
+          "Ukarine",
+          "Slovakia",
+          "Luxembourg",
+          "Bulgaria",
+          "Croatia",
+          "Belarus",
+          "Slovenia"
+        ]
+      }
+    }
+  ],
   "encoding": {
     "x": {
       "timeUnit": "year",
