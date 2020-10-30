@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "Vega-Lite version of bar chart from https://observablehq.com/@d3/learn-d3-scales.",
   "width": 750,
-  "height": 530,
+  "height": 600,
   "background": "#f5f5dc",
   "data": {
     "values": [
@@ -158,14 +158,15 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 16,
+        "fontSize": 12.5,
+        "fontWeight":"bold",
         "align": "right",
         "xOffset": -4,
         "aria": false
       },
       "encoding": {
         "text": {"field": "PercentageofCrime", "type": "quantitative"},
-        "color": {"value": "Black"}
+        "color": {"value": "black"}
       }
     }
   ],
