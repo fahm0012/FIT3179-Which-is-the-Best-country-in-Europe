@@ -37,7 +37,7 @@
       "legend":{"titleFontSize":15,"labelFontSize":15},
       "scale": {
         "type": "linear",
-        "domain": [5000, 10000, 15000, 20000, 25000],
+        "domain": [5000, 10000, 15000, 20000, 25000,30000],
         "range": [
         "#f2f0f7",
 "#dadaeb",
