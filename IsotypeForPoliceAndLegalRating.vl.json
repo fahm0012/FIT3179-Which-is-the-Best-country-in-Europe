@@ -44,12 +44,6 @@
       "header": {"title": "", "labelFontSize": 17, "labelFontWeight": "bold"}
     },
     "text": {"field": "emoji", "type": "nominal"},
-    "size": {"value": 39},
-    "tooltip": [
-      {"field": "Country ", "type": "nominal", "title": "Country"},
-      {"field": "Rank", "type": "nominal", "title": "Category"},
-      {"field": "rank", "type": "quantitative", "title": "Rating Star"},
-      {"field": "Rating", "type": "quantitative", "title": "Total Rating"}
-    ]
+    "size": {"value": 39}
   }
 }
