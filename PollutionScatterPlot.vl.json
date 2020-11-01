@@ -7,7 +7,7 @@
     "values": [
       {
         "country": "Austria",
-        "Size (kmSquare)": 83879,
+        "Area Size (km²)": 83879,
         "Population": 8736668,
         "PercentageofreportedPollution": 10.7,
         "Region": "Western Europe",
@@ -18,7 +18,7 @@
       },
       {
         "country": "Belgium",
-        "Size (kmSquare)": 30689,
+        "Area Size (km²)": 30689,
         "Population": 11331422,
         "PercentageofreportedPollution": 13.2,
         "Region": "Western Europe",
@@ -29,7 +29,7 @@
       },
       {
         "country": "Bulgaria",
-        "Size (kmSquare)": 110994,
+        "Area Size (km²)": 110994,
         "Population": 7127822,
         "PercentageofreportedPollution": 15.1,
         "Region": "Eastern Europe",
@@ -40,7 +40,7 @@
       },
       {
         "country": "Switzerland",
-        "Size (kmSquare)": 41285,
+        "Area Size (km²)": 41285,
         "Population": 8373338,
         "PercentageofreportedPollution": 8.9,
         "Region": "Western Europe",
@@ -51,7 +51,7 @@
       },
       {
         "country": "Cyprus",
-        "Size (kmSquare)": 9251,
+        "Area Size (km²)": 9251,
         "Population": 1170187,
         "PercentageofreportedPollution": 9.2,
         "Region": "Southeastern Europe",
@@ -62,7 +62,7 @@
       },
       {
         "country": "Czechia",
-        "Size (kmSquare)": 78866,
+        "Area Size (km²)": 78866,
         "Population": 10566332,
         "PercentageofreportedPollution": 13.5,
         "Region": "Eastern Europe",
@@ -73,7 +73,7 @@
       },
       {
         "country": "Germany",
-        "Size (kmSquare)": 357386,
+        "Area Size (km²)": 357386,
         "Population": 82348669,
         "PercentageofreportedPollution": 23.2,
         "Region": "Western Europe",
@@ -84,7 +84,7 @@
       },
       {
         "country": "Denmark",
-        "Size (kmSquare)": 42933,
+        "Area Size (km²)": 42933,
         "Population": 5728010,
         "PercentageofreportedPollution": 6.8,
         "Region": "Northern Europe",
@@ -95,7 +95,7 @@
       },
       {
         "country": "Estonia",
-        "Size (kmSquare)": 45227,
+        "Area Size (km²)": 45227,
         "Population": 1315790,
         "PercentageofreportedPollution": 9.9,
         "Region": "Northern Europe",
@@ -106,7 +106,7 @@
       },
       {
         "country": "Greece",
-        "Size (kmSquare)": 131957,
+        "Area Size (km²)": 131957,
         "Population": 10775971,
         "PercentageofreportedPollution": 19.6,
         "Region": "Southern Europe",
@@ -117,7 +117,7 @@
       },
       {
         "country": "Spain",
-        "Size (kmSquare)": 505990,
+        "Area Size (km²)": 505990,
         "Population": 46440000,
         "PercentageofreportedPollution": 10.1,
         "Region": "Southern Europe",
@@ -128,7 +128,7 @@
       },
       {
         "country": "Finland",
-        "Size (kmSquare)": 338440,
+        "Area Size (km²)": 338440,
         "Population": 5487000,
         "PercentageofreportedPollution": 7.2,
         "Region": "Northern Europe",
@@ -139,7 +139,7 @@
       },
       {
         "country": "Croatia",
-        "Size (kmSquare)": 56594,
+        "Area Size (km²)": 56594,
         "Population": 41910000,
         "PercentageofreportedPollution": 7,
         "Region": "Southern Europe",
@@ -150,7 +150,7 @@
       },
       {
         "country": "Hungary",
-        "Size (kmSquare)": 93030,
+        "Area Size (km²)": 93030,
         "Population": 9830000,
         "PercentageofreportedPollution": 12.8,
         "Region": "Eastern Europe",
@@ -161,7 +161,7 @@
       },
       {
         "country": "Ireland",
-        "Size (kmSquare)": 84421,
+        "Area Size (km²)": 84421,
         "Population": 4726000,
         "PercentageofreportedPollution": 4.6,
         "Region": "Northern Europe",
@@ -172,7 +172,7 @@
       },
       {
         "country": "Iceland",
-        "Size (kmSquare)": 103000,
+        "Area Size (km²)": 103000,
         "Population": 332529,
         "PercentageofreportedPollution": 7.9,
         "Region": "Northern Europe",
@@ -183,7 +183,7 @@
       },
       {
         "country": "Italy",
-        "Size (kmSquare)": 301338,
+        "Area Size (km²)": 301338,
         "Population": 60670000,
         "PercentageofreportedPollution": 15.1,
         "Region": "Southern Europe",
@@ -194,7 +194,7 @@
       },
       {
         "country": "Lithuania",
-        "Size (kmSquare)": 65300,
+        "Area Size (km²)": 65300,
         "Population": 2889000,
         "PercentageofreportedPollution": 15.6,
         "Region": "Northern Europe",
@@ -205,7 +205,7 @@
       },
       {
         "country": "Luxembourg",
-        "Size (kmSquare)": 2586,
+        "Area Size (km²)": 2586,
         "Population": 576249,
         "PercentageofreportedPollution": 16.1,
         "Region": "Western Europe",
@@ -216,7 +216,7 @@
       },
       {
         "country": "Latvia",
-        "Size (kmSquare)": 64589,
+        "Area Size (km²)": 64589,
         "Population": 1969000,
         "PercentageofreportedPollution": 17.2,
         "Region": "Northern Europe",
@@ -227,7 +227,7 @@
       },
       {
         "country": "Malta",
-        "Size (kmSquare)": 316,
+        "Area Size (km²)": 316,
         "Population": 450415,
         "PercentageofreportedPollution": 30.2,
         "Region": "Southern Europe",
@@ -238,7 +238,7 @@
       },
       {
         "country": "Netherlands",
-        "Size (kmSquare)": 41543,
+        "Area Size (km²)": 41543,
         "Population": 16980000,
         "PercentageofreportedPollution": 13.2,
         "Region": "Western Europe",
@@ -249,7 +249,7 @@
       },
       {
         "country": "Poland",
-        "Size (kmSquare)": 312679,
+        "Area Size (km²)": 312679,
         "Population": 37970000,
         "PercentageofreportedPollution": 11.4,
         "Region": "Eastern Europe",
@@ -260,7 +260,7 @@
       },
       {
         "country": "Portugal",
-        "Size (kmSquare)": 92212,
+        "Area Size (km²)": 92212,
         "Population": 10340000,
         "PercentageofreportedPollution": 13.1,
         "Region": "Southern Europe",
@@ -271,7 +271,7 @@
       },
       {
         "country": "Romania",
-        "Size (kmSquare)": 238397,
+        "Area Size (km²)": 238397,
         "Population": 19760000,
         "PercentageofreportedPollution": 14.5,
         "Region": "Eastern Europe",
@@ -282,7 +282,7 @@
       },
       {
         "country": "Sweden",
-        "Size (kmSquare)": 450295,
+        "Area Size (km²)": 450295,
         "Population": 9851000,
         "PercentageofreportedPollution": 6.3,
         "Region": "Northern Europe",
@@ -293,7 +293,7 @@
       },
       {
         "country": "Slovenia",
-        "Size (kmSquare)": 20271,
+        "Area Size (km²)": 20271,
         "Population": 2064000,
         "PercentageofreportedPollution": 15.9,
         "Region": "Southern Europe",
@@ -304,7 +304,7 @@
       },
       {
         "country": "Slovakia",
-        "Size (kmSquare)": 49035,
+        "Area Size (km²)": 49035,
         "Population": 5426000,
         "PercentageofreportedPollution": 9.3,
         "Region": "Eastern Europe",
@@ -315,7 +315,7 @@
       },
       {
         "country": "Turkey",
-        "Size (kmSquare)": 783562,
+        "Area Size (km²)": 783562,
         "Population": 78740000,
         "PercentageofreportedPollution": 24.5,
         "Region": "Southeastern Europe",
@@ -326,7 +326,7 @@
       },
       {
         "country": "United Kingdom",
-        "Size (kmSquare)": 242495,
+        "Area Size (km²)": 242495,
         "Population": 65380000,
         "PercentageofreportedPollution": 9,
         "Region": "Northern Europe",
@@ -346,7 +346,7 @@
         "min": 0,
         "max": 30,
         "step": 5,
-        "name": "Pollution Reported(%): "
+        "name": "Pollution (%): "
       }
     },
     {
@@ -381,10 +381,9 @@
   ],
   "encoding": {
     "x": {
-      "field": "Size (kmSquare)",
+      "field": "Area Size (km²)",
       "type": "quantitative",
       "axis": {
-        "title": " Area Size(KmSquare)",
         "tickCount": 4,
         "labelFontSize": 15,
         "titleFontSize": 15
@@ -410,10 +409,9 @@
       "mark": "circle",
       "encoding": {
         "x": {
-          "field": "Size (kmSquare)",
+          "field": "Area Size (km²)",
           "type": "quantitative",
           "axis": {
-            "title": " Area Size(KmSquare)",
             "tickCount": 4,
             "labelFontSize": 15,
             "titleFontSize": 15
